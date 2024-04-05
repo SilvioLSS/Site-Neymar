@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+        <hr>
+    </header>
+    <nav>
+        <a href="PáginaPrincipal.html">Início</a>
+    </nav>
+    <br>
+    <main>
+        <section>
+            <form method="post">
+                <fieldset>
+                    <legend><h2>Informações de contato</h2></legend>
+                    <label">Nome: </label>
+                    <input type="text" name="nome" id="nome">
+                    <br><br>
+                    <label">Email: </label>
+                    <input type="email" name="email" id="email">
+                    <br><br>
+                    <label">Senha: </label>
+                    <input type="password" name="senha" id="senha">
+                    <br><br>
+                    <label">Telefone: </label>
+                    <input type="tel" name="tel" id="tel">
+                    <br><br>
+                    <label">Idade: </label>
+                    <input type="number" name="idade" id="idade">
+                    <br><br>
+                    <label">Data de aniversário: </label>
+                    <input type="date" name="aniversario" id="aniversario">
+                    <br><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend><h2>Preferências</h2></legend>
+                    <label>Em qual posição Neymar joga melhor? </label>
+                    <br>
+                    <select name="posicao" id="posicao">
+                        <option value="PTE">Ponta esquerda</option>
+                        <option value="PTD">Ponta direita</option>
+                        <option value="MAT">Meia atacante</option>
+                        <option value="FA">Falso 9</option>
+                        <option value="SA">Segundo atacante</option>
+                    </select>
+                    <br><br>
+                    <label>Em qual time Neymar jogou melhor?</label> 
+                    <br>
+                    <input type="checkbox" value="san"> Santos 
+                    <br>
+                    <input type="checkbox" value="bar"> Barcelona 
+                    <br>
+                    <input type="checkbox" value="santos"> PSG 
+                    <br>
+                    <input type="checkbox" value="santos"> Al-Hilal 
+                </fieldset>
+                <br><br>
+                <section>
+                    <h2>Biografia: </h2>
+                    <textarea name="biografia" id="biografia" cols="200" rows="10"></textarea>
+                </section>
+                <section>
+                    <h2>Fotos</h2>
+                    <fieldset>
+                        <legend><h3>Faça o Upload de fotos que você registou e deseja ver em nosso site</h3></legend>
+                    <input type="file" name="foto" id="foto">
+                    </fieldset>
+                </section>
+            </form>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <p>© 2024 Neymar da Silva Santos Júnior</p>
+    </footer>
+</body>
+</html>
